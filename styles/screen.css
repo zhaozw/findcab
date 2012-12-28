@@ -48,6 +48,11 @@ body{
   width:600px;
   height:200px;
 }
+.intro-img{
+  width:502px;
+  height:197px;
+  background-image:url(../images/hailo-2.png)
+}
 .introduction{
   width:600px;
 }

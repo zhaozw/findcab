@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>beijing taxi app</title>
+  <link rel="stylesheet" media="all" href="styles/screen.css" />
+  <script type="text/javascript" charset="utf-8" src="javascripts/jquery.js"></script>
+  <script type="text/javascript" charset="utf-8" src="javascripts/easySlider1.7.js"></script>
+</head>
+<body>
+  <div id="container">
+     <div id="header">
+       <div class="logo fl"><a href="index.html">logo</a></div>
+       <ul class="citylist fl margin">
+         <li>北京</li>
+         <li>上海</li>
+         <li>广州</li>
+         <li>深圳</li>
+       </ul>
+       <h2 class="fr"><a href="admin/login.html">matrix</a></h2>
+     </div>
+     <div class="main">
+       <div class="introduction fl">
+         <div class="intro-text">
+           <h2>北京叫出租app</h2>
+           <br />
+           <h3>无论你在哪，无论什么时候，只要拿起手机打开快找车，<br>就会有车来接你,大概是这个意思</h3>
+         </div>
+        <div class="intro-img">
+             <a href="iphone.html" class="fl" style="margin-top:100px;margin-left:100px;">iphone</a>
+             <a href="android.html" class="fl" style="margin-top:100px;margin-left:180px;">android</a>
+         </div>
+       </div>
+       <div class="demo-image fl">
+         <div id="slider" style="width:280px;height:480px;">
+             <ul>
+               <li><img src="images/hailo-iphone-5.jpg" style="width:280px;height:480px;" alt="" /> </li>
+               <li><img src="images/hailo-iphone-6.jpg" style="width:280px;height:480px;" alt=""/> </li>
+               <li><img src="images/hailo-iphone-7.jpg" style="width:280px;height:480px;" alt=""/> </li>
+               <li><img src="images/hailo-iphone-8.jpg" style="width:280px;height:480px;" alt=""/> </li>
+               <li><img src="images/hailo-iphone-9.jpg" style="width:280px;height:480px;" alt=""/> </li>
+             </ul>
+         </div>
+       </div>
+       <div class="recommand fl">
+         <img src="images/hailo-3.png" alt="" />
+       </div>
+     </div>
+     <div id="footer">
+			&copy; <a href="http://vissul.com" target="_blank">vissul.com</a> 2012
+     </div>
+  </div>
+  <script type="text/javascript" charset="utf-8">
+   $(document).ready(function(){ 
+    $("#slider").easySlider({
+      auto: true,
+      continuous: true 
+    });
+  });
+  </script>
+  </body>
+</html>

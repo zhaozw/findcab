@@ -1,4 +1,4 @@
-package com.findcab.activity;
+﻿package com.findcab.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -29,6 +29,7 @@ public class CallActivity extends Activity implements OnClickListener {
 	private Button start_cancel, end_cancel;
 	private Button okButton, cancelButton;
 	private EditText edit_start, edit_end;
+
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

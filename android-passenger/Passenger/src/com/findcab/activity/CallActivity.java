@@ -31,6 +31,10 @@ public class CallActivity extends Activity implements OnClickListener {
 	private EditText edit_start, edit_end;
 
 
+
+
+
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
